@@ -15,6 +15,7 @@
 		085CAEEE25776AAC00AAD8B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085CAEEC25776AAC00AAD8B1 /* LaunchScreen.storyboard */; };
 		085CAEF925776AAC00AAD8B1 /* tipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CAEF825776AAC00AAD8B1 /* tipTests.swift */; };
 		085CAF0425776AAC00AAD8B1 /* tipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CAF0325776AAC00AAD8B1 /* tipUITests.swift */; };
+		085CAF1D2577929500AAD8B1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CAF1C2577929500AAD8B1 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082505D725DD7FC6001CD3A7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		082505D825DD7FC6001CD3A7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		082505DC25DD81AC001CD3A7 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/Main.strings"; sourceTree = "<group>"; };
+		082505DD25DD81AC001CD3A7 /* en-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-US"; path = "en-US.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		085CAEDE25776AA900AAD8B1 /* tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		085CAEE125776AA900AAD8B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		085CAEE325776AA900AAD8B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		085CAEFF25776AAC00AAD8B1 /* tipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		085CAF0325776AAC00AAD8B1 /* tipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipUITests.swift; sourceTree = "<group>"; };
 		085CAF0525776AAC00AAD8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085CAF1C2577929500AAD8B1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = tip/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +108,9 @@
 				085CAEE125776AA900AAD8B1 /* AppDelegate.swift */,
 				085CAEE325776AA900AAD8B1 /* SceneDelegate.swift */,
 				085CAEE525776AA900AAD8B1 /* ViewController.swift */,
-				085CAEE725776AA900AAD8B1 /* Main.storyboard */,
+				085CAF1C2577929500AAD8B1 /* SettingsViewController.swift */,
 				085CAEEA25776AAC00AAD8B1 /* Assets.xcassets */,
+				085CAEE725776AA900AAD8B1 /* Main.storyboard */,
 				085CAEEC25776AAC00AAD8B1 /* LaunchScreen.storyboard */,
 				085CAEEF25776AAC00AAD8B1 /* Info.plist */,
 			);
@@ -213,6 +220,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				"en-US",
 			);
 			mainGroup = 085CAED525776AA900AAD8B1;
 			productRefGroup = 085CAEDF25776AA900AAD8B1 /* Products */;
@@ -261,6 +270,7 @@
 				085CAEE625776AA900AAD8B1 /* ViewController.swift in Sources */,
 				085CAEE225776AA900AAD8B1 /* AppDelegate.swift in Sources */,
 				085CAEE425776AA900AAD8B1 /* SceneDelegate.swift in Sources */,
+				085CAF1D2577929500AAD8B1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +310,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				085CAEE825776AA900AAD8B1 /* Base */,
+				082505D725DD7FC6001CD3A7 /* es */,
+				082505DC25DD81AC001CD3A7 /* en-US */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,6 +320,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				085CAEED25776AAC00AAD8B1 /* Base */,
+				082505D825DD7FC6001CD3A7 /* es */,
+				082505DD25DD81AC001CD3A7 /* en-US */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

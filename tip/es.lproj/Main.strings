@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "Total Tip"; ObjectID = "5Kg-f8-UEM"; */
+"5Kg-f8-UEM.text" = "Propina Total";
+
+/* Class = "UILabel"; text = "Tip 3"; ObjectID = "5Po-0y-Knb"; */
+"5Po-0y-Knb.text" = "Propina 3";
+
+/* Class = "UINavigationItem"; title = "Tip Calculator"; ObjectID = "AaN-sf-5ad"; */
+"AaN-sf-5ad.title" = "Calculadora de Propinas";
+
+/* Class = "UITextField"; placeholder = "15"; ObjectID = "AiF-qP-hJH"; */
+"AiF-qP-hJH.placeholder" = "15";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "Fyp-fy-zbI"; */
+"Fyp-fy-zbI.text" = "$";
+
+/* Class = "UITextField"; placeholder = "20"; ObjectID = "GYJ-kO-Tmb"; */
+"GYJ-kO-Tmb.placeholder" = "20";
+
+/* Class = "UISegmentedControl"; HOE-gk-hWs.segmentTitles[0] = "15%"; ObjectID = "HOE-gk-hWs"; */
+"HOE-gk-hWs.segmentTitles[0]" = "15%";
+
+/* Class = "UISegmentedControl"; HOE-gk-hWs.segmentTitles[1] = "18%"; ObjectID = "HOE-gk-hWs"; */
+"HOE-gk-hWs.segmentTitles[1]" = "18%";
+
+/* Class = "UISegmentedControl"; HOE-gk-hWs.segmentTitles[2] = "20%"; ObjectID = "HOE-gk-hWs"; */
+"HOE-gk-hWs.segmentTitles[2]" = "20%";
+
+/* Class = "UILabel"; text = "Tip % Values"; ObjectID = "IzW-mc-8cO"; */
+"IzW-mc-8cO.text" = "Propina % Valor";
+
+/* Class = "UILabel"; text = "Tip 2"; ObjectID = "LRO-7W-aKJ"; */
+"LRO-7W-aKJ.text" = "Propina 2";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "Ldi-Rc-qcS"; */
+"Ldi-Rc-qcS.text" = "%";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "OcW-Nl-I81"; */
+"OcW-Nl-I81.title" = "Ajustes";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "RW6-hJ-Doa"; */
+"RW6-hJ-Doa.text" = "$0.00";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "UEc-wu-7Zw"; */
+"UEc-wu-7Zw.text" = "$0.00";
+
+/* Class = "UILabel"; text = "Bill Amount"; ObjectID = "b82-f0-SzG"; */
+"b82-f0-SzG.text" = "Total de la Factura";
+
+/* Class = "UITextField"; placeholder = "Enter Value Here"; ObjectID = "bR3-ml-3wj"; */
+"bR3-ml-3wj.placeholder" = "Entre Aquí";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "eFo-LI-otP"; */
+"eFo-LI-otP.text" = "%";
+
+/* Class = "UILabel"; text = "+"; ObjectID = "i66-Cl-56f"; */
+"i66-Cl-56f.text" = "+";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "pjR-Ag-2NO"; */
+"pjR-Ag-2NO.text" = "%";
+
+/* Class = "UILabel"; text = "Choose Tip"; ObjectID = "pup-RZ-GhZ"; */
+"pup-RZ-GhZ.text" = "Elija la Propina";
+
+/* Class = "UILabel"; text = "Tip 1"; ObjectID = "qrm-Hp-eDz"; */
+"qrm-Hp-eDz.text" = "Propina 1";
+
+/* Class = "UITextField"; placeholder = "18"; ObjectID = "yvR-pn-WUb"; */
+"yvR-pn-WUb.placeholder" = "18";
