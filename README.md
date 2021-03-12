@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![](https://i.imgur.com/d4RMxAx.gif)
+![](tipcalculator.gif)
 <img src='https://i.imgur.com/d4RMxAx.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
