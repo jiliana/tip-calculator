@@ -4,7 +4,7 @@
 
 Submitted by: **Jiliana Tiu**
 
-Time spent: **30** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
