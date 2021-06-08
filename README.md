@@ -23,6 +23,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Settings screen where user can choose tip percentages
+- [x] App icon and launch screen
 
 ## Video Walkthrough
 
